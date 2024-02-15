@@ -1,0 +1,67 @@
+.button{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+
+.btn-underline{
+    color: $especialB;
+    padding: 16px;
+    &:hover{
+        text-decoration: underline;
+        color: $especialB;
+    }
+}
+
+
+
+.btn-primary{
+    &-light{
+        background-color: $especialB;
+        color: black;
+        &:hover{
+            background-color: #3375E5;
+            cursor: pointer;
+        }
+        &:active{
+            background-color: blue;
+        }
+    }
+
+}
+
+.btn-secondary{
+    &-light{
+        background-color: $primary300;
+        color: black;
+        &:hover{
+            background-color: $primary300;
+            color: $primary400;
+            cursor: pointer;
+        }
+        &:active{
+            background-color: blue;
+        }
+    }
+}
+
+.btn-special{
+    &-blue{
+        background-color: $primary200;
+        color: $primary700;
+        &:hover{
+            background-color: $primary400;
+            cursor: pointer;
+        }
+        &:active{
+            background-color: blue;
+        }
+    }
+}
+
+
+
+.btn-icon{
+    padding: .75rem;
+    border-radius: 50px;
+}
